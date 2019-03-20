@@ -1,0 +1,37 @@
+{
+  "name": "graphql-code-generator-issue-1499",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.11",
+    "graphql": "^14.1.1",
+    "react": "^16.8.4",
+    "react-apollo": "^2.5.2",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "generate": "gql-gen"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@graphql-codegen/add": "^1.0.1",
+    "@graphql-codegen/cli": "^1.0.1",
+    "@graphql-codegen/typescript": "^1.0.1",
+    "@graphql-codegen/typescript-operations": "^1.0.1",
+    "@graphql-codegen/typescript-react-apollo": "^1.0.1"
+  }
+}

@@ -1,0 +1,16 @@
+schema: 
+    - https://api.github.com/graphql:
+        headers:
+          "Authorization": token OAUTH-TOKEN
+          "User-Agent": graphql-code-generator-issue-1499
+overwrite: true
+generates:
+  src/apollo/contacts/index.tsx:
+    plugins:
+    - add: "/* THIS IS A GENERATED FILE - DO NOT MODIFY */"
+    - add: "// tslint:disable"
+    - typescript
+    - typescript-operations
+    - typescript-react-apollo
+    documents:
+      - src/apollo/contacts/**/*.graphql
